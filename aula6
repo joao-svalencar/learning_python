@@ -1,0 +1,16 @@
+n = input('Digite algo:')
+#print(n.isalpha()) #.is something? comandos booleanos pra verificar o type do objeto
+if n.isalpha():
+    print('Valor é alfabetico')
+else:
+    print('Valor não é alfabetico')
+if n.isnumeric():
+    print('Valor é numérico')
+else:
+    print('Valor não é numérico')
+if n.isalnum():
+    print('Valor é alfanumérico')
+else:
+    print('Valor não é alfanumérico')
+
+print(type(n))
